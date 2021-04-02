@@ -16,7 +16,7 @@ class App  {
     init() {
         this.app.use(Cors());
         this.app.use(Helmet());
-        this.app.use(Routes(this.router))
+        this.app.use(Routes(this.router));
     }
 
 }
